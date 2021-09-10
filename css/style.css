@@ -1,0 +1,133 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cover {
+    height: 500px;
+}
+
+#cover div:first-of-type {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/me.jfif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: blur(1rem);
+    z-index: 1;
+}
+
+#cover img {
+    height: 100%;
+    width: auto;
+    z-index: 2;
+    top: -100%;
+    position: relative;
+    border-radius: 1em;
+}
+
+.tile {
+    border-radius: 1em;
+}
+
+#title {
+    height: 70px;
+    width: 50%;
+    margin-left: 25%;
+    z-index: 2;
+    top: -110%;
+    position: relative;
+    background-color: #C8B694;
+}
+
+#title h1 {
+    font-family: cursive;
+    padding: 10px 0;
+}
+
+#navigation {
+    background-color: #A7B7C4;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#navigation a {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: Georgia;
+    font-size: 20pt;
+}
+
+.content {
+    position: relative;
+    top: -10px;
+    padding-bottom: 20px;
+}
+
+#summary {
+    background-color: rgb(230, 238, 183);
+}
+
+#pleasures {
+    background-color: rgb(183, 238, 197);
+}
+
+#poem {
+    text-align: center;
+    background-color: rgb(238, 183, 183);
+}
+
+#movies {
+    padding-left: 150px;
+}
+
+#movies td {
+    padding-left: 50px;
+}
+
+#gradient {
+    margin: 0 0 0 10%;
+    width: 80%;
+    height: 300px;
+    background: linear-gradient(black, white, silver, gold);
+}
+
+.cover {
+    height: 400px;
+    cursor: pointer;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+h2,
+h3 {
+    text-align: left;
+    padding-left: 100px;
+}
+
+p {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgba(0, 81, 255, 0.418);
+}
